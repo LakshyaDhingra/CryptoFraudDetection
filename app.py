@@ -33,4 +33,4 @@ def check_rug_pull_risk(address):
         return "Error: Unable to retrieve contract details."
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
